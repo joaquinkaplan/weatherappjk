@@ -6,7 +6,7 @@ const key = 'Aj5CUPrNJ3J88D3B7suFZqdbU9BztCod';
 //GET WEATHER INFORMATION
 const getWeather = async (id) => {
 
-    const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
+    const base = 'https://dataservice.accuweather.com/currentconditions/v1/';
     const query = `${id}?apikey=${key}`;
 
 
