@@ -25,7 +25,7 @@ const getWeather = async (id) => {
 //GET CITY INFORMATION
 const getCity = async (city) => {
 
-const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+const base = 'https://dataservice.accuweather.com/locations/v1/cities/search';
 const query = `?apikey=${key}&q=${city}`; //starts with '?' because it's a query
 
 const response = await fetch(base + query);
